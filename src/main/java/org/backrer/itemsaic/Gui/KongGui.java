@@ -1,5 +1,6 @@
 package org.backrer.itemsaic.Gui;
 
+import org.backrer.itemsaic.unitl.Lang;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -7,7 +8,6 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import java.util.Map;
 
 public class KongGui implements Gui{
 
@@ -18,7 +18,7 @@ public class KongGui implements Gui{
 
     @Override
     public String guiName() {
-        return "§a打孔";
+        return Lang.lang.getString("GuiName.kongName");
     }
 
     @Override

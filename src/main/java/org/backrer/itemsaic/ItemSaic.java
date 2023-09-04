@@ -7,11 +7,15 @@ import org.backrer.itemsaic.cmd.textGui;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ItemSaic extends JavaPlugin {
+    public static ItemSaic ins;
 
     @Override
     public void onEnable() {
+        ins = this;
+        getLogger().info("已加载ins");
         //加载config
         saveDefaultConfig();
+        saveResource("lang.yml",false);
         saveConfig();
         //注册事件
         getServer().getPluginManager().registerEvents(new ClickEvent(),this);
