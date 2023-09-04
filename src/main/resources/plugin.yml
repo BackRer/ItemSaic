@@ -1,0 +1,7 @@
+name: ItemSaic
+version: '${version}'
+main: org.backrer.itemsaic.ItemSaic
+api-version: '1.18'
+commands:
+  textGui:
+    description: ww
