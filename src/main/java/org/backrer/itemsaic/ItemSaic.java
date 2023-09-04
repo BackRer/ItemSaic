@@ -17,6 +17,7 @@ public final class ItemSaic extends JavaPlugin {
         saveDefaultConfig();
         saveResource("lang.yml",false);
         saveConfig();
+        //reloadConfig();
         //注册事件
         getServer().getPluginManager().registerEvents(new ClickEvent(),this);
         //注册Gui
