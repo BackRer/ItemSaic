@@ -1,3 +1,11 @@
 GuiName:
   kongName: "§a打孔"
   xiangQian: '§b镶嵌'
+  kongFG: "§d分隔板"
+  kongButton: "§e点击随机打孔"
+
+Until:
+  first: "已加载ins."
+
+null: "未知物品无法强化...."
+loreEnable: "此物品已打孔过"

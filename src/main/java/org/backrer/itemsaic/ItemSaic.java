@@ -4,6 +4,7 @@ import org.backrer.itemsaic.Gui.ClickEvent;
 import org.backrer.itemsaic.Gui.Gui;
 import org.backrer.itemsaic.Gui.KongGui;
 import org.backrer.itemsaic.cmd.textGui;
+import org.backrer.itemsaic.unitl.Lang;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ItemSaic extends JavaPlugin {
@@ -12,7 +13,7 @@ public final class ItemSaic extends JavaPlugin {
     @Override
     public void onEnable() {
         ins = this;
-        getLogger().info("已加载ins");
+        getLogger().info(Lang.lang.getString("Until.first"));
         //加载config
         saveDefaultConfig();
         saveResource("lang.yml",false);

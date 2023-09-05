@@ -21,4 +21,6 @@ public interface Gui {
     int[] eventGlot();
     void createGui();
     void useToPlayerGui(Player player);
+
+    void EventKongGuiClick(InventoryClickEvent event);
 }
