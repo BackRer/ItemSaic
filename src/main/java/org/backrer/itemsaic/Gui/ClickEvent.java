@@ -14,8 +14,8 @@ public class ClickEvent implements Listener {
     public void allGuiCheck(InventoryClickEvent event) {
         Collection<Gui> values = Gui.allList.values();
         for (Gui gui : values){
-            if (event.getView().getTitle().equalsIgnoreCase(gui.guiName())){
-                if (Until.Contains(gui.notMoveGlot(), event.getRawSlot())){
+            if (event.getView().getTitle().equalsIgnoreCase(gui.guiName())){ //判断要检测的gui名称
+                if (Until.Contains(gui.notMoveGlot(), event.getRawSlot())){ //判断禁止移动的格子
                     event.setCancelled(true);
                 }
                 if (Until.Contains(gui.eventGlot(), event.getRawSlot())) {

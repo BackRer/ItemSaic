@@ -3,9 +3,12 @@ GuiName:
   xiangQian: '§b镶嵌'
   kongFG: "§d分隔板"
   kongButton: "§e点击随机打孔"
+  QiangHua: "§a您的孔位尚未完全放置物品"
 
 Until:
-  first: "已加载ins."
+  first: "插件初始化完成,静态变量已创建,如若出现报错,请重新启动插件!"
+  reloadConfig: "§a已重载所有配置文件!"
+  item: "指令用法错误！正确用法:/isk item 宝石"
 
 null: "未知物品无法强化...."
 loreEnable: "此物品已打孔过"

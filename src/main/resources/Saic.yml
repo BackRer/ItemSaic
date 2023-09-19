@@ -1,0 +1,20 @@
+BaoShi:
+  blue:
+    type: 'blue'
+    mate: 'IRON_SWORD'
+    lore:
+      - 'www'
+      - 'ccc'
+      - 'aawaw'
+  red:
+    type: 'green'
+    mate: 'IRON_SWORD'
+    lore:
+      - 'color'
+      - 'fire'
+      - 'cw'
+
+Kong:
+  red: '§4✵'
+  blue: '§b✹'
+  green: '§2✺'
